@@ -1,0 +1,5 @@
+![auto-running](https://github.com/vqlong/WashingMachine/assets/102813500/85ae3cbe-0f64-45f9-a638-a911a89970c2)
+![manual](https://github.com/vqlong/WashingMachine/assets/102813500/02640ab2-6574-4ea3-947c-00700dfffad4)
+![error](https://github.com/vqlong/WashingMachine/assets/102813500/f4aa8c08-30fb-44fa-a08b-d95ad33b226d)
+![hmi-auto](https://github.com/vqlong/WashingMachine/assets/102813500/cc9c622f-ed77-4233-b9f3-d63fbc282c6b)
+![hmi-manual](https://github.com/vqlong/WashingMachine/assets/102813500/0077a531-cf1d-453e-a0db-56a72c058dbb)
