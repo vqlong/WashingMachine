@@ -1,0 +1,135 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Wafer Washing Machine" Height="536" Width="666"
+        WindowStartupLocation="CenterScreen"
+        Name="main"
+        Loaded="main_Loaded"
+        Closing="main_Closing">
+
+    <Window.Resources>
+        <Style TargetType="Button" >
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+    </Window.Resources>
+    <Border BorderBrush="LightGray" BorderThickness="5">
+        <StackPanel>
+            <DockPanel>
+                <Label x:Name="lbMode" DockPanel.Dock="Left" Background="Blue" Width="160" MouseDown="lbMode_MouseDown">Mode</Label>
+                <Label x:Name="lbErrorStatus" DockPanel.Dock="Right" Background="BlueViolet" Width="160" FontSize="14">xxx</Label>
+                <Label x:Name="lbAuto" Background="Lime" FontSize="40">Auto</Label>
+            </DockPanel>
+            <UniformGrid Columns="4">
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="DarkTurquoise"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Width" Value="160"/>
+                            <Setter Property="Height" Value="60"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="FontSize" Value="18"/>
+                            <Setter Property="BorderBrush" Value="LightGray"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label>Vacuum Runtime</Label>
+                    <Label>Vacuum Metter</Label>
+                    <Label>Clean Time</Label>
+                    <Label>Dry Time</Label>
+                    <Label>Motor Stop Time</Label>
+                    <Label>Cycle Time</Label>
+                </StackPanel>
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="RoyalBlue"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Width" Value="160"/>
+                            <Setter Property="Height" Value="60"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="FontSize" Value="18"/>
+                            <Setter Property="BorderBrush" Value="LightGray"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label Name="lbVacRunPV">Vacuum Runtime</Label>
+                    <Label Name="lbVacMetterPV">Vacuum Metter</Label>
+                    <Label Name="lbCleanTimePV">Clean Time</Label>
+                    <Label Name="lbDryTimePV">Dry Time</Label>
+                    <Label Name="lbMotorStopTimePV">Motor Stop Time</Label>
+                    <Label Name="lbCycleTime">Cycle Time</Label>
+                </StackPanel>
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="DarkTurquoise"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Width" Value="160"/>
+                            <Setter Property="Height" Value="60"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="FontSize" Value="18"/>
+                            <Setter Property="BorderBrush" Value="LightGray"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label Name="lbVacRunSV">Vacuum Runtime</Label>
+                    <Label Name="lbVacMetterSV">Vacuum Metter</Label>
+                    <Label Name="lbCleanTimeSV">Clean Time</Label>
+                    <Label Name="lbDryTimeSV">Dry Time</Label>
+                    <Label Name="lbMotorStopTimeSV">Motor Stop Time</Label>
+                    <Label Name="lbMotorSpeed">Motor Speed</Label>
+                </StackPanel>
+                <StackPanel>
+                    <StackPanel.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Background" Value="Gray"/>
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Width" Value="160"/>
+                            <Setter Property="Height" Value="60"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="FontSize" Value="18"/>
+                            <Setter Property="BorderBrush" Value="LightGray"/>
+                            <Setter Property="BorderThickness" Value="2"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Label x:Name="lbVacuum">Vacuum</Label>
+                    <Label Name="lbCover">Cover</Label>
+                    <Label x:Name="lbChuck">Chuck</Label>
+                    <Label x:Name="lbMotor">Motor</Label>
+                    <Label x:Name="lbWater">Water</Label>
+                    <Label x:Name="lbDry">Dry</Label>
+                </StackPanel>
+
+            </UniformGrid>
+            <UniformGrid Columns="4">
+                <Button x:Name="btnOrigin" Background="Orange" Click="btnOrigin_Click">Origin</Button>
+                <Button x:Name="btnStart" Background="LimeGreen" Click="btnStart_Click">Start</Button>
+                <Button x:Name="btnStop" Background="Crimson" Click="btnStop_Click">Stop</Button>
+                <Button x:Name="btnReset" Background="BlueViolet" Click="btnReset_Click">Reset</Button>
+            </UniformGrid>
+        </StackPanel>
+    </Border>
+    
+</Window>

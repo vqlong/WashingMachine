@@ -1,0 +1,92 @@
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+  <DSPROJECTDATA>
+    <D_Projectdata diffgr:id="D_Projectdata1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+      <iID>1</iID>
+      <szName>WashingMachine.prj</szName>
+      <dtCreateDate>2024-03-06T18:55:07.8396276+07:00</dtCreateDate>
+      <dtUpdateDate>2024-03-06T18:55:07.8396276+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>true</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>1</ucProductType>
+      <ucFolderType>1</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>1</ucFileType>
+    </D_Projectdata>
+    <D_Projectdata diffgr:id="D_Projectdata2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+      <iID>2</iID>
+      <szName>PrjStatus.flg</szName>
+      <dtCreateDate>2024-03-06T18:55:07.8552518+07:00</dtCreateDate>
+      <dtUpdateDate>2024-03-06T18:55:07.8552518+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>true</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>1</ucProductType>
+      <ucFolderType>1</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>12</ucFileType>
+    </D_Projectdata>
+    <D_Projectdata diffgr:id="D_Projectdata3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+      <iID>3</iID>
+      <szName>Param.wpa</szName>
+      <dtCreateDate>2024-03-06T18:55:07.8552518+07:00</dtCreateDate>
+      <dtUpdateDate>2024-03-06T18:55:07.8552518+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>true</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>1</ucProductType>
+      <ucFolderType>2</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>1</ucFileType>
+    </D_Projectdata>
+    <D_Projectdata diffgr:id="D_Projectdata4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+      <iID>5</iID>
+      <szName>Project.gt3</szName>
+      <dtCreateDate>2024-03-06T18:55:08.2614754+07:00</dtCreateDate>
+      <dtUpdateDate>2024-03-06T18:55:08.2614754+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>false</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>0</ucProductType>
+      <ucFolderType>0</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>0</ucFileType>
+    </D_Projectdata>
+    <D_Projectdata diffgr:id="D_Projectdata5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+      <iID>6</iID>
+      <szName>GTEFILE</szName>
+      <dtCreateDate>2024-03-06T18:55:08.2770987+07:00</dtCreateDate>
+      <dtUpdateDate>2024-03-06T18:55:08.2770987+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>true</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>1</ucProductType>
+      <ucFolderType>7</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>1</ucFileType>
+    </D_Projectdata>
+    <D_Projectdata diffgr:id="D_Projectdata7" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+      <iID>4</iID>
+      <szName>WashingMachine.pji</szName>
+      <dtCreateDate>2024-05-17T22:09:11.9410861+07:00</dtCreateDate>
+      <dtUpdateDate>2024-05-17T22:09:11.9410861+07:00</dtUpdateDate>
+      <bScrapFlag>false</bScrapFlag>
+      <bStructuredStorage>true</bStructuredStorage>
+      <iCreaterID>0</iCreaterID>
+      <ucProductType>1</ucProductType>
+      <ucFolderType>6</ucFolderType>
+      <uiFolderNo>0</uiFolderNo>
+      <ucReserve>0</ucReserve>
+      <ucFileType>4</ucFileType>
+    </D_Projectdata>
+    <D_DBVersion diffgr:id="D_DBVersion4" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+      <iSupportVersion>1</iSupportVersion>
+      <iCreateVersion>1</iCreateVersion>
+    </D_DBVersion>
+  </DSPROJECTDATA>
+</diffgr:diffgram>
